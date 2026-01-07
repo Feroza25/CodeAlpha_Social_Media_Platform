@@ -1,0 +1,17 @@
+HOW TO RUN 
+
+
+py -3.11 -m venv env
+
+env\Scripts\activate
+
+pip install -r requirements.txt
+
+cd socials
+
+python manage.py makemigrations
+python manage.py migrate
+
+python manage.py createsuperuser
+
+python manage.py runserver
